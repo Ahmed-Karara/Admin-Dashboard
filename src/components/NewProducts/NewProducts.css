@@ -1,0 +1,55 @@
+.newProducts {
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	height: 40%;
+}
+
+.box {
+	background: #fff;
+	height: 250px;
+	border-radius: 5px;
+	flex: 1;
+	transition: 0.5s;
+	margin: 0 5px;
+	box-shadow: 0 20px 30px 5px rgb(170, 170, 170);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.box > img {
+	width: 95%;
+	height: 200px;
+	object-fit: cover;
+	transition: 0.5s;
+}
+
+.box > span {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.box:hover {
+	flex: 1 1 30%;
+}
+
+@media screen and (max-width: 1200px) {
+	.box {
+		height: 340px;
+	}
+	.box:hover {
+		flex: 1 1 30%;
+		height: 340px;
+	}
+	.box:hover > img {
+		height: 95%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.box:hover {
+		flex: 1 1 45%;
+	}
+}

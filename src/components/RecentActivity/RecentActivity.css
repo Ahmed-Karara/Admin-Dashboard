@@ -1,0 +1,36 @@
+.recent-activity {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 5px;
+}
+.recent-activity p {
+	font-size: 20px;
+	font-weight: bold;
+	align-self: flex-start;
+}
+
+@media screen and (max-width: 1200px) {
+	.recent-activity {
+		flex-direction: row;
+		margin-top: 30px;
+		gap: 30px;
+		padding-right: 10px;
+	}
+	.recent-activity p {
+		align-self: flex-start;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.recent-activity {
+		margin-top: 30px;
+		flex-direction: column;
+
+		gap: 30px;
+		padding-right: 10px;
+	}
+	.recent-activity p {
+		align-self: center;
+	}
+}

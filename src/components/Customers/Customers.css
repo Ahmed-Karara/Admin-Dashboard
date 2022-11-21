@@ -1,0 +1,30 @@
+.customers {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 25px;
+	gap: 10px;
+}
+
+.aa {
+	display: flex;
+	justify-content: center;
+}
+
+.customers > span:nth-of-type(1) {
+	font-size: 25px;
+	font-weight: bold;
+	align-self: flex-start;
+}
+
+@media screen and (max-width: 1200px) {
+	.customers {
+		gap: 50px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.customers {
+		margin-top: 50px;
+	}
+}

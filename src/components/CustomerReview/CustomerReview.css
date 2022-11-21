@@ -1,0 +1,22 @@
+.CustomerReview {
+	display: flex;
+	flex-direction: column;
+}
+
+.CustomerReview p {
+	font-size: 18px;
+	font-weight: bold;
+	align-self: flex-start;
+}
+
+@media screen and (max-width: 1200px) {
+	.CustomerReview p {
+		align-self: center;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.CustomerReview p {
+		align-self: center;
+	}
+}

@@ -1,0 +1,48 @@
+p {
+	font-size: 18px;
+	font-weight: bold;
+}
+.Products {
+	width: 100%;
+	background: #fff;
+	border-radius: 10px;
+	text-align: left;
+}
+
+.Products td,
+.Products th {
+	border: none;
+	text-align: left;
+	padding: 13px;
+}
+
+.Products td {
+	font-size: 13px;
+}
+
+.Products td a {
+	text-decoration: none;
+	color: #0026ff;
+	font-size: 16px;
+}
+
+.approved {
+	background: #91fe9f78;
+	color: green;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+.pending {
+	color: red;
+	padding: 5px;
+	border-radius: 8px;
+	background: #ffada8ff;
+}
+
+.delivered {
+	color: #fff;
+	background: #09649c;
+	padding: 5px;
+	border-radius: 8px;
+}

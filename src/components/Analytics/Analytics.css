@@ -1,0 +1,28 @@
+.Analytics {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 15px;
+	gap: 15px;
+}
+
+.Analytics > span:nth-of-type(1) {
+	font-size: 25px;
+	font-weight: bold;
+}
+.Analytics > span:nth-of-type(2) {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+	.Analytics {
+		gap: 50px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.Analytics {
+		margin-top: 50px;
+	}
+}
