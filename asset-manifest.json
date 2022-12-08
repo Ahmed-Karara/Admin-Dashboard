@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Admin-Dashboard/static/css/main.e775d02f.css",
+    "main.js": "/Admin-Dashboard/static/js/main.fe7b0ee1.js",
+    "static/media/VivoY53s.jpg": "/Admin-Dashboard/static/media/VivoY53s.2921abe5d38df643cb18.jpg",
+    "static/media/SamsungS21.jpg": "/Admin-Dashboard/static/media/SamsungS21.1ffb0771d062b6f5e96c.jpg",
+    "static/media/SamsungS22.jpg": "/Admin-Dashboard/static/media/SamsungS22.64a48e843e682148d724.jpg",
+    "static/media/iPhone14.jpg": "/Admin-Dashboard/static/media/iPhone14.b416a4d61c648274837a.jpg",
+    "static/media/img1.png": "/Admin-Dashboard/static/media/img1.a0fca9c51749c1ee3db5.png",
+    "static/media/img2.png": "/Admin-Dashboard/static/media/img2.f5f922c9b93eaf2c4065.png",
+    "static/media/img3.png": "/Admin-Dashboard/static/media/img3.6b1484548ee065fd59b5.png",
+    "static/media/xiaomiMi11.jpg": "/Admin-Dashboard/static/media/xiaomiMi11.b924ff29f0517dcb91c7.jpg",
+    "index.html": "/Admin-Dashboard/index.html",
+    "main.e775d02f.css.map": "/Admin-Dashboard/static/css/main.e775d02f.css.map",
+    "main.fe7b0ee1.js.map": "/Admin-Dashboard/static/js/main.fe7b0ee1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e775d02f.css",
+    "static/js/main.fe7b0ee1.js"
+  ]
+}
