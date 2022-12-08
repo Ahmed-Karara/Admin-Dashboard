@@ -20,7 +20,7 @@ export default function Sidebar() {
 		<>
 			<div
 				className='menubars'
-				style={expand ? { left: '30%' } : { left: '5%' }}
+				style={expand ? { left: '40%' } : { left: '5%' }}
 				onClick={() => {
 					setExpand(!expand);
 				}}>
