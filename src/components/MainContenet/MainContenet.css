@@ -1,23 +1,23 @@
 .mainContent {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
 }
 
 .mainContent > span {
-	font-size: 25px;
-	font-weight: bold;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1200px) {
-	.mainContent {
-		gap: 50px;
-	}
+  .mainContent {
+    gap: 50px;
+  }
 }
 
 @media screen and (max-width: 800px) {
-	.mainContent {
-		margin-top: 50px;
-	}
+  .mainContent {
+    margin-top: 50px;
+  }
 }
