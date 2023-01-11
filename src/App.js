@@ -16,6 +16,7 @@ function App() {
           <Sidebar />
           <Routes>
             <Route path="/*" element={<MainContenet />}></Route>
+            <Route path="/Dashboard" element={<MainContenet />}></Route>
             <Route path="Orders" element={<Orders />}></Route>
             <Route path="Customers" element={<Customers />}></Route>
             <Route path="Products" element={<Products />}></Route>
